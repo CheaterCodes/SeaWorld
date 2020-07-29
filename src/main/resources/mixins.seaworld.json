@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.cheatercodes.seaworld.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MoreOptionsDialogMixin",
+    "DimensionTypeAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

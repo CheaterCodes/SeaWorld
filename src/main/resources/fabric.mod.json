@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "seaworld",
+  "version": "${version}",
+
+  "name": "SeaWorld",
+  "description": "A world generation mod for a seablock experience.",
+  "authors": [
+    "CheaterCodes"
+  ],
+  "contact": {
+    "sources": "https://github.com/CheaterCodes/SeaWorld"
+  },
+
+  "license": "MIT",
+  "icon": "assets/seaworld/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cheatercodes.seaworld.SeaWorldMain"
+    ]
+  },
+  "mixins": [
+    "mixins.seaworld.json"
+  ],
+  "accessWidener": "seaworld.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
