@@ -1,11 +1,11 @@
 package net.cheatercodes.seaworld;
 
 import net.cheatercodes.seaworld.world.SeaWorldGeneratorType;
-import net.fabricmc.api.ModInitializer;
+import net.fabricmc.api.ClientModInitializer;
 
-public class SeaWorldMain implements ModInitializer {
+public class SeaWorldMain implements ClientModInitializer {
 	@Override
-	public void onInitialize() {
+	public void onInitializeClient() {
 		SeaWorldGeneratorType.register();
 	}
 }
